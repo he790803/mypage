@@ -169,13 +169,16 @@ p {
 
 @-skrollr-keyframes animation2 {
     0 {
-        transform: translateY(0px)
+        transform: translateY(0px);
+        opacity: 1;
     }
     50p {
-        transform: translateY(250px)
+        transform: translateY(250px);
+        opacity: 1;
     }
     150p {
-        transform: translateY(500px)
+        transform: translateY(500px);
+        opacity: 0;
     }
 }
 
@@ -185,13 +188,16 @@ p {
 
 @-skrollr-keyframes animation3 {
     150p {
-        transform: translateX(0px)
+        transform: translateX(0px);
+        opacity: 1;
     }
     250p {
-        transform: translateX(250px)
+        transform: translateX(250px);
+        opacity: 1;
     }
     300p {
-        transform: translateX(500px)
+        transform: translateX(500px);
+        opacity: 0;
     }
 }
 
@@ -201,13 +207,16 @@ p {
 
 @-skrollr-keyframes animation4 {
     300p {
-        transform: translateY(0px)
+        transform: translateY(0px);
+        opacity: 1;
     }
     350p {
-        transform: translateY(-250px)
+        transform: translateY(-250px);
+        opacity: 1;
     }
     450p {
-        transform: translateY(-600px)
+        transform: translateY(-600px);
+        opacity: 0;
     }
 }
 
@@ -217,12 +226,15 @@ p {
 
 @-skrollr-keyframes animation5 {
     360p {
-        transform: translateY(0px)
+        transform: translateY(0px);
+        opacity: 0.5;
     }
     400p {
-        transform: translateY(-250px)
+        transform: translateY(-250px);
+        opacity: 0.5;
     }
     450p {
-        transform: translateY(-500px)
+        transform: translateY(-500px);
+        opacity: 1;
     }
 }
